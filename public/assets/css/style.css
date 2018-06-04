@@ -1,0 +1,85 @@
+/* UNIVERSAL */
+a:hover {
+    text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+
+/* HEADER */
+#headerSection {
+    background: url("../imgs/mountain-sunset.jpg");
+    height: 100vh;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent!important;
+}
+
+.nav-item {
+    color: #692a14!important;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.container-main {
+    padding: 0px!important;
+    position: absolute;
+    left: 24px;
+    top: 78px;
+    color: #692a14!important;
+}
+
+.fa.fa-connectdevelop, .fa.fa-linkedin, .fa.fa-github-alt {
+    color: #692a14!important;
+    font-size: 2em;
+}
+
+/* ABOUT */
+#aboutSection {
+    color: #692a14!important;
+    margin-top: 72px;
+    height: 100vh;
+}
+
+/* PROJECTS */
+#projectSection {
+    color: #692a14!important;
+    margin-top: 72px;
+    height: 100vh;
+}
+
+/* SKILLS */
+#skillSection {
+    color: #692a14!important;
+    margin-top: 72px;
+    height: 100vh;
+}
+
+/* CONTACT */
+#contactSection {
+    color: #692a14!important;
+    margin-top: 72px;
+    height: 100vh;
+}
+
+.btn-outline-primary {
+    border-color: #692a14!important;
+    color: #692a14!important;
+}
+
+.btn-outline-primary:hover {
+    border-color: #692a14!important;
+    background-color: #692a14!important;
+    color: #ffffff!important;
+}
+
+/* FOOTER */
+.footer {
+    color: #692a14!important;
+    margin-top: 72px;
+}
