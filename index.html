@@ -31,7 +31,7 @@
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" href="#aboutSection">ABOUT</a>
                     <a class="nav-item nav-link" href="#projectSection">PROJECTS</a>
@@ -40,9 +40,14 @@
                 </div>
             </div>
         </nav>
-        <section class="container-main">
-            <h1 class="display-4">JASON WARNER</h1>
+        <!-- 'hidden' nav bar to maintain transparent nav & disappearing text effect -->
+        <nav class="navbar fixed-top navbar-hidden">
+
+        </nav>
+        <section class="container">
+            <h1 class="display-4 text-center">JASON WARNER</h1>
             <hr class="my-4">
+
             <p class="lead text-center">Full Stack Web Developer</p>
             <hr class="my-4">
             <div class="row text-center">
@@ -68,7 +73,7 @@
 
     <!-- ABOUT -->
     <div id="aboutSection">
-        <section class="container">
+        <section class="container text-center">
             <h1 class="display-4">ABOUT</h1>
             <hr class="my-4">
             <p class="lead">Jason Warner is a Full Stack Web Developer who helps businesses reach consumers through the development of value-added
@@ -87,7 +92,7 @@
 
     <!-- PROJECTS -->
     <div id="projectSection">
-        <section class="container">
+        <section class="container text-center">
             <h1 class="display-4">PROJECTS</h1>
             <hr class="my-4">
             <p class="lead">Recent and current projects:</p>
@@ -97,7 +102,7 @@
 
     <!-- SKILLS -->
     <div id="skillSection">
-        <section class="container">
+        <section class="container text-center">
             <h1 class="display-4">SKILLS</h1>
             <hr class="my-4">
             <p class="lead">Proficient technologies:</p>
@@ -108,7 +113,7 @@
     <!-- CONTACT -->
     <div id="contactSection">
         <section class="container">
-            <h1 class="display-4">CONTACT ME</h1>
+            <h1 class="display-4 text-center">CONTACT ME</h1>
             <hr class="my-4">
             <div class="row">
                 <div class="col-5">
@@ -161,21 +166,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
     <!-- JS -->
-    <script>
-        // SMOOTH SCROLLING
-        $('a[href*="#"]').click(function (event) {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    event.preventDefault();
-                    $('html, body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                }
-            }
-        });
-    </script>
+    <script src="./public/assets/js/port.js"></script>
     <!-- SCRIPTS END -->
 </body>
 
