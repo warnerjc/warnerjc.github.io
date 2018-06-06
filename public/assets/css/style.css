@@ -3,9 +3,9 @@ a:hover {
     text-decoration: none;
 }
 .container {
-    padding-top:62px;
+    padding-top: 62px;
     z-index:5;
-    overflow: auto;
+    overflow: hidden;
 }
 
 /* HEADER */
@@ -15,10 +15,15 @@ a:hover {
     z-index: 9!important;
 }
 
+#headerContainer {
+    padding-top: 124px!important;
+}
+
 .navbar {
     font-family: 'Montserrat', sans-serif;
-    background-color: transparent!important;
+    background: url("../imgs/mountain-sunset.jpg");
     z-index: 10!important;
+    border-bottom: 1px solid #692a14;
 }
 
 .navbar-hidden {
@@ -45,33 +50,35 @@ a:hover {
 /* ABOUT */
 #aboutSection {
     color: #692a14!important;
-    margin-top: 125px;
-    margin-left: 9px;
-    height: 100vh;
 }
 
 /* PROJECTS */
 #projectSection {
     color: #692a14!important;
-    margin-top: 72px;
-    margin-left: 9px;
-    height: 100vh;
+}
+
+.cust-img {
+    height: 350px;
+}
+
+.card-img-top {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card {
+    margin-bottom: 60px;
 }
 
 /* SKILLS */
 #skillSection {
     color: #692a14!important;
-    margin-top: 72px;
-    margin-left: 9x;
-    height: 100vh;
 }
 
 /* CONTACT */
 #contactSection {
     color: #692a14!important;
-    margin-top: 72px;
-    margin-left: 9px;
-    height: 100vh;
 }
 
 .btn-outline-primary {
