@@ -2,17 +2,10 @@
 a:hover {
     text-decoration: none;
 }
-
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1000px;
-    }
-}
-
 .container {
     padding-top:62px;
     z-index:5;
-    overflow:auto;
+    overflow: auto;
 }
 
 /* HEADER */
