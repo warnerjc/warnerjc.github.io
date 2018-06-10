@@ -93,7 +93,10 @@ a:hover {
 }
 
 /* FOOTER */
-.footer {
+footer.navbar {
+    margin-top: 62px;
+    font-family: 'Montserrat', sans-serif;
     color: #692a14!important;
-    margin-top: 72px;
+    background: none!important;
+    border-bottom: none!important;
 }
