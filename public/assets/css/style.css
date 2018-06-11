@@ -1,11 +1,21 @@
 /* UNIVERSAL */
+a {
+    text-decoration: none;
+    color: #692a14;
+}
+
 a:hover {
     text-decoration: none;
 }
+
 .container {
     padding-top: 62px;
     z-index:5;
     overflow: hidden;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* HEADER */
@@ -83,11 +93,16 @@ a:hover {
 .skill-img {
     height: 128px;
     width: 128px;
+    margin-bottom: 16px;
 }
 
 /* CONTACT */
 #contactSection {
     color: #692a14!important;
+}
+
+.contact-row {
+    margin-bottom: 32px;
 }
 
 .btn-outline-primary {
