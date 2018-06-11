@@ -76,6 +76,15 @@ a:hover {
     color: #692a14!important;
 }
 
+.skill-div {
+    margin-bottom: 60px;
+}
+
+.skill-img {
+    height: 128px;
+    width: 128px;
+}
+
 /* CONTACT */
 #contactSection {
     color: #692a14!important;
@@ -100,3 +109,14 @@ footer.navbar {
     background: none!important;
     border-bottom: none!important;
 }
+
+/* MEDIA QUERIES */
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 991.98px) {
+    .skill-img {
+        height: 80px!important;
+        width: 80px!important;
+    }
+}
+

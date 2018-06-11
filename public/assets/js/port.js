@@ -14,5 +14,14 @@ $('a[href*="#"]').click(function (event) {
     }
 });
 
+// CLOSE NAVBAR TOGGLER WHEN ANCHOR CLICKED
+$(function() {
+    $('.navbar a').on('click', function(){ 
+        if($('.navbar-toggler').css('display') !='none'){
+            $('.navbar-toggler').trigger( "click" );
+        }
+    });
+});
+
 });
 
