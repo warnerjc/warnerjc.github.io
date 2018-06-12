@@ -1,11 +1,3 @@
-// PRELOADER
-
-// Wait for window load
-$(window).load(function() {
-	// Animate loader off screen
-	$(".se-pre-con").attr("display", "hidden");
-});
-
 $(document).ready( function() {
 
 // SMOOTH SCROLLING
